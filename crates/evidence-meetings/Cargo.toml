@@ -8,3 +8,8 @@ description = "Meeting-to-Action Engine — SAS EvidenceOS module"
 evidence-core = { workspace = true }
 anyhow = { workspace = true }
 clap = { workspace = true }
+regex = { workspace = true }
+rusqlite = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

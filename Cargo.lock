@@ -444,6 +444,9 @@ dependencies = [
  "anyhow",
  "clap",
  "evidence-core",
+ "regex",
+ "rusqlite",
+ "tempfile",
 ]
 
 [[package]]
