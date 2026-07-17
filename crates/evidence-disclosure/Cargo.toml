@@ -1,0 +1,10 @@
+[package]
+name = "evidence-disclosure"
+version = "0.1.0"
+edition = "2021"
+description = "Disclosure Control Tower — SAS EvidenceOS module"
+
+[dependencies]
+evidence-core = { workspace = true }
+anyhow = { workspace = true }
+clap = { workspace = true }

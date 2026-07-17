@@ -1,0 +1,10 @@
+[package]
+name = "evidence-meetings"
+version = "0.1.0"
+edition = "2021"
+description = "Meeting-to-Action Engine — SAS EvidenceOS module"
+
+[dependencies]
+evidence-core = { workspace = true }
+anyhow = { workspace = true }
+clap = { workspace = true }

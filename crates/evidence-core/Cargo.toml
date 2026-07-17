@@ -1,0 +1,16 @@
+[package]
+name = "evidence-core"
+version = "0.1.0"
+edition = "2021"
+description = "Shared core for SAS EvidenceOS: database, schema, SIR numbering, filename rules, audit log"
+
+[dependencies]
+anyhow = { workspace = true }
+rusqlite = { workspace = true }
+chrono = { workspace = true }
+regex = { workspace = true }
+sha2 = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

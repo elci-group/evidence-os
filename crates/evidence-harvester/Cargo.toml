@@ -1,0 +1,10 @@
+[package]
+name = "evidence-harvester"
+version = "0.1.0"
+edition = "2021"
+description = "SIR Harvester — SAS EvidenceOS module"
+
+[dependencies]
+evidence-core = { workspace = true }
+anyhow = { workspace = true }
+clap = { workspace = true }

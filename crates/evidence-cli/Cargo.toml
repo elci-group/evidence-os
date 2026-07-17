@@ -1,0 +1,24 @@
+[package]
+name = "evidence-cli"
+version = "0.1.0"
+edition = "2021"
+description = "evidenceos CLI — single entry point for all SAS EvidenceOS modules"
+
+[[bin]]
+name = "evidenceos"
+path = "src/main.rs"
+
+[dependencies]
+evidence-core = { workspace = true }
+evidence-harvester = { path = "../evidence-harvester" }
+evidence-chronology = { path = "../evidence-chronology" }
+evidence-disclosure = { path = "../evidence-disclosure" }
+evidence-sentinel = { path = "../evidence-sentinel" }
+evidence-graph = { path = "../evidence-graph" }
+evidence-auditor = { path = "../evidence-auditor" }
+evidence-meetings = { path = "../evidence-meetings" }
+evidence-deadlines = { path = "../evidence-deadlines" }
+evidence-drafting = { path = "../evidence-drafting" }
+evidence-cockpit = { path = "../evidence-cockpit" }
+anyhow = { workspace = true }
+clap = { workspace = true }

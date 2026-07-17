@@ -1,0 +1,23 @@
+From: "Sally-Ann Spring" <sally@example.org>
+To: "PB Caseworker" <pb@example.com>
+Date: Fri, 03 Jul 2026 10:24:00 +0100
+Subject: Covering email supplying CrowdJustice contact details
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY42"
+
+--BOUNDARY42
+Content-Type: text/plain; charset="utf-8"
+
+Please find attached the CrowdJustice contact details.
+
+Regards,
+Sally-Ann Spring
+
+--BOUNDARY42
+Content-Type: text/plain; name="crowdjustice-contacts.txt"
+Content-Disposition: attachment; filename="crowdjustice-contacts.txt"
+Content-Transfer-Encoding: 7bit
+
+CrowdJustice casework contact: casework@example.com
+
+--BOUNDARY42--

@@ -1,0 +1,10 @@
+[package]
+name = "evidence-sentinel"
+version = "0.1.0"
+edition = "2021"
+description = "Document Naming and Filing Sentinel — SAS EvidenceOS module"
+
+[dependencies]
+evidence-core = { workspace = true }
+anyhow = { workspace = true }
+clap = { workspace = true }
