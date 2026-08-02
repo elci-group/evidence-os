@@ -8,3 +8,9 @@ description = "Disclosure Control Tower — SAS EvidenceOS module"
 evidence-core = { workspace = true }
 anyhow = { workspace = true }
 clap = { workspace = true }
+rusqlite = { workspace = true }
+regex = { workspace = true }
+csv = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

@@ -1,0 +1,21 @@
+From: Sally-Ann Spring <sally@example.org>
+To: "KGS Solicitors" <kgs@example.com>
+Cc: john@example.net
+Date: Fri, 03 Jul 2026 10:15:00 +0100
+Subject: Covering email supplying CrowdJustice contact details
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIXED-BOUNDARY"
+
+--MIXED-BOUNDARY
+Content-Type: text/plain; charset="utf-8"
+
+Please find attached the CrowdJustice contact details.
+
+--MIXED-BOUNDARY
+Content-Type: text/plain; name="crowdjustice-contacts.txt"
+Content-Disposition: attachment; filename="crowdjustice-contacts.txt"
+Content-Transfer-Encoding: base64
+
+Q3Jvd2RKdXN0aWNlIGNvbnRhY3RzOiBqYW5lQGV4YW1wbGUub3JnLCAwMTIzNCA1Njc4OTAK
+
+--MIXED-BOUNDARY--

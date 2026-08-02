@@ -8,3 +8,9 @@ description = "Document Naming and Filing Sentinel — SAS EvidenceOS module"
 evidence-core = { workspace = true }
 anyhow = { workspace = true }
 clap = { workspace = true }
+regex = { workspace = true }
+rusqlite = { workspace = true }
+walkdir = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

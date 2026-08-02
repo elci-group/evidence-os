@@ -8,3 +8,13 @@ description = "SIR Harvester — SAS EvidenceOS module"
 evidence-core = { workspace = true }
 anyhow = { workspace = true }
 clap = { workspace = true }
+rusqlite = { workspace = true }
+walkdir = { workspace = true }
+chrono = { workspace = true }
+regex = { workspace = true }
+mailparse = { workspace = true }
+zip = { workspace = true }
+csv = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

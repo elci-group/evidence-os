@@ -8,3 +8,11 @@ description = "Chronology Composer — SAS EvidenceOS module"
 evidence-core = { workspace = true }
 anyhow = { workspace = true }
 clap = { workspace = true }
+rusqlite = { workspace = true }
+regex = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+csv = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

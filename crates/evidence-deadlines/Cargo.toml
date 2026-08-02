@@ -7,4 +7,9 @@ description = "Deadline and Limitation Guard — SAS EvidenceOS module"
 [dependencies]
 evidence-core = { workspace = true }
 anyhow = { workspace = true }
+chrono = { workspace = true }
 clap = { workspace = true }
+rusqlite = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }
